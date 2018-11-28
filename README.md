@@ -1,5 +1,5 @@
 # GitLearn
-Git的学习使用(精简版)   
+Git的学习使用(简版)   
 
 1、准备工作：  
 下载安装Git   
@@ -32,3 +32,25 @@ a、[回退]git reset --hard HEAD^
 b、[切换]git reset --hard commit_id    
 H、查看分支   
 git branch    
+I、创建分支    
+git branch branch-name    
+J、切换分支    
+git checkout branch-name    
+[创建+切换]git checkout -b branch-name    
+K、合并分支    
+git merge branch-name   
+L、删除分支    
+git branch -D branch-name   
+M、保存当前分支工作现场    
+git stash   
+N、恢复某现场   
+git stash apply stash-id    
+O、变基    
+git rebase branch-name    
+P、标签    
+git tag name commit-id    
+Q、远程获取    
+git pull    
+git fetch   
+R、远程提交    
+git push    
